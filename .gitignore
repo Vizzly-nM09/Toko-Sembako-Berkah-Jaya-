@@ -1,0 +1,39 @@
+# IDE
+.idea/
+*.iml
+
+# Gradle and build
+.gradle/
+.kotlin/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.hprof
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Signing and secrets
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties
+.env
+.env.*
+
+# Docs, keep README
+*.md
+!README.md
+!**/README.md
